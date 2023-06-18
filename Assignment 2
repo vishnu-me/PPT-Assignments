@@ -1,0 +1,18 @@
+Question 1
+
+let num = 4;
+
+if (num ==0 || num ==1){
+    console.log(num);
+    return;
+}
+let k = 1;
+let result =1;
+
+ while (result <= num)
+    {
+        k++;
+        result = k * k;
+    }
+    console.log(k-1)
+    return;
